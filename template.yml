@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: 2010-09-09
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+   TweetSentimentMetrics:
+     Type: AWS::Serverless::Function
+     Properties:
+     CodeUri: target/aws-serverless-tweet-sentiment-metrics-1.0.0-SNAPSHOT.jar
+     Runtime: java8
+     Handler: TODO
+     Tracing: Active
+     MemorySize: 512
+     Timeout: 60
+     Policies:
+     Environment:
+       Variables:
+         TODO: TODO
+
+   Outputs:

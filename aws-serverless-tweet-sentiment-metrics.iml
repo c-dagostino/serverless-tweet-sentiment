@@ -12,7 +12,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.22" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.dagger:dagger-compiler:2.14.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.dagger:dagger-producers:2.14.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.dagger:dagger-spi:2.14.1" level="project" />
@@ -21,6 +21,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.squareup:javapoet:1.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: com.apple:AppleJavaExtensions:1.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-lambda-java-core:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-lambda-java-events:2.0.2" level="project" />

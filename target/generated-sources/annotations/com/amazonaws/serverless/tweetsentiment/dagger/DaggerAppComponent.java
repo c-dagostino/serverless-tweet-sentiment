@@ -3,7 +3,7 @@ package com.amazonaws.serverless.tweetsentiment.dagger;
 import com.amazonaws.serverless.tweetsentiment.TweetProcessor;
 import dagger.internal.DoubleCheck;
 import dagger.internal.Preconditions;
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 import javax.inject.Provider;
 
 @Generated(

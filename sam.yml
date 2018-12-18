@@ -5,9 +5,9 @@ Resources:
    TweetSentimentMetrics:
      Type: AWS::Serverless::Function
      Properties:
-     CodeUri: target/aws-serverless-tweet-sentiment-metrics-1.0.0-SNAPSHOT.jar
+     CodeUri: target/aws-serverless-tweet-sentiment-metrics.jar
      Runtime: java8
-     Handler: TODO
+     Handler: com.amazon
      Tracing: Active
      MemorySize: 512
      Timeout: 60
@@ -15,5 +15,3 @@ Resources:
      Environment:
        Variables:
          TODO: TODO
-
-   Outputs:

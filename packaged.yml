@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  TweetSentimentMetrics:
+    Properties:
+      CodeUri: s3://cjdconsulting-sam/8b352095dd8f10d64a6879b0d8914ff3
+      Environment:
+        Variables:
+          MY_VAR: 42
+      Handler: com.amazonaws.serverless.tweetsentiment.lambda.TweetSentimentHandler::handleRequest
+      MemorySize: 512
+      Runtime: java8
+      Timeout: 60
+      Tracing: Active
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

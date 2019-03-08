@@ -1,6 +1,6 @@
 package com.amazonaws.serverless.tweetsentiment.dagger;
 
-import com.amazonaws.serverless.tweetsentiment.TweetProcessor;
+import com.amazonaws.serverless.tweetsentiment.TweetSentiment;
 import dagger.internal.DoubleCheck;
 import dagger.internal.Preconditions;
 import javax.annotation.processing.Generated;
@@ -11,7 +11,7 @@ import javax.inject.Provider;
   comments = "https://google.github.io/dagger"
 )
 public final class DaggerAppComponent implements AppComponent {
-  private Provider<TweetProcessor> provideTweetProcessorProvider;
+  private Provider<TweetSentiment> provideTweetSentimentProvider;
 
   private DaggerAppComponent(Builder builder) {
     initialize(builder);
@@ -27,13 +27,13 @@ public final class DaggerAppComponent implements AppComponent {
 
   @SuppressWarnings("unchecked")
   private void initialize(final Builder builder) {
-    this.provideTweetProcessorProvider =
-        DoubleCheck.provider(AppModule_ProvideTweetProcessorFactory.create(builder.appModule));
+    this.provideTweetSentimentProvider =
+        DoubleCheck.provider(AppModule_ProvideTweetSentimentFactory.create(builder.appModule));
   }
 
   @Override
-  public TweetProcessor tweetProcessor() {
-    return provideTweetProcessorProvider.get();
+  public TweetSentiment tweetProcessor() {
+    return provideTweetSentimentProvider.get();
   }
 
   public static final class Builder {

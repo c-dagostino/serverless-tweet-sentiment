@@ -1,7 +1,8 @@
 com/amazonaws/serverless/tweetsentiment/dagger/AppComponent.class
-com/amazonaws/serverless/tweetsentiment/dagger/DaggerAppComponent.class
-com/amazonaws/serverless/tweetsentiment/dagger/AppModule_ProvideTweetProcessorFactory.class
-com/amazonaws/serverless/tweetsentiment/dagger/DaggerAppComponent$Builder.class
-com/amazonaws/serverless/tweetsentiment/TweetProcessor.class
+com/amazonaws/serverless/tweetsentiment/dagger/Env.class
+com/amazonaws/serverless/tweetsentiment/TweetSentiment.class
+com/amazonaws/serverless/tweetsentiment/lambda/TweetSentimentHandler.class
+com/amazonaws/serverless/tweetsentiment/Repository/TweetRepository.class
 com/amazonaws/serverless/tweetsentiment/dagger/AppModule.class
-com/amazonaws/serverless/tweetsentiment/dagger/DaggerAppComponent$1.class
+com/amazonaws/serverless/tweetsentiment/Tweet.class
+com/amazonaws/serverless/tweetsentiment/ReturnTweet.class

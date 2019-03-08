@@ -1,6 +1,6 @@
 package com.amazonaws.serverless.tweetsentiment.dagger;
 
-import com.amazonaws.serverless.tweetsentiment.TweetProcessor;
+import com.amazonaws.serverless.tweetsentiment.TweetSentiment;
 import dagger.Component;
 import dagger.Module;
 
@@ -13,5 +13,5 @@ import javax.inject.Singleton;
 @Component(modules = {AppModule.class})
 public interface AppComponent {
 
-    TweetProcessor tweetProcessor();
+    TweetSentiment tweetProcessor();
 }
